@@ -1,0 +1,67 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none;background-color: orange }
+
+
+.section-padding{
+  padding-top:50px;
+}
+h2 {
+  text-align: center;
+}
+
+
+.blog-bg-img {
+  background-image: url(../img/single-blog-bg-img.png);
+  background-size: cover;
+  backgrond-repeat: no-repeat;
+  width: 280px;
+  height: 250px;
+  
+}
+
+h3{
+  padding:10px 10px;
+}
+
+
+p{
+  padding:10px 10px;
+}
+
+.btn{
+  border:1px solid orange;
+  margin-left:30px;
+}
+
+.btn:active{
+ background-color:red;
+}
